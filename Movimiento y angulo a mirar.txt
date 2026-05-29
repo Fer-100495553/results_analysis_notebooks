@@ -1,0 +1,6 @@
+- Shoulder Flex_Ext --> LeftHumerothoracic_ZXY_Op1 & RightHumerothoracic_ZXY_Op1 --> Eje X
+- Shoulder Abd_Add --> LeftHumerothoracic_XZY_Op1 & RightHumerothoracic_XZY_Op1 --> Eje X
+- Shoulder Int_Rot Int_Ext --> LeftHumerothoracic_XZY_Op2 & RightHumerothoracic_XZY_Op2 --> Eje Z
+- Elbow Flex_Ext --> LeftElbow_Op1 & RightElbow_Op1 --> Eje X
+- Thorax Angles --> Thorax Angles --> Eje X e Y, depende de donde mire el sujeto
+- Trunk Inclination --> Trunk Inclination Angle --> Eje Z
