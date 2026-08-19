@@ -19,7 +19,17 @@
 
 ---
 
-### Figure 2 — Bland-Altman: Shoulder Flex/Ext ROM, Standing (M1 and M2 vs Complete Model)
+### Figure 2 — Mean ROM Difference vs Complete Model: Standing, all movements (B.1, Perfect distances)
+
+![Figure 2](fig2b_dotplot_rom_standing_B1.png)
+
+**Caption.** Mean ROM difference (model − Complete Model, °) for each movement-side combination in the standing condition (Comparison B.1, Perfect distances). Circles: M1. Squares: M2. Error bars: ± 1 SD. Colour reflects ICC(C,1) interpretation (Koo & Li, 2016): green = excellent, orange = good, dark orange = moderate, red = poor. The vertical dashed line at zero indicates perfect agreement.
+
+**Why this figure.** Provides a full-spectrum view of systematic bias for both models across all movements simultaneously — information that a single Bland-Altman plot cannot convey. It reveals that M1 biases are generally small (< 3°) except for Shoulder Abd/Add, while M2 carries a large systematic offset for Shoulder Flex/Ext (~4–7°) and Thorax Lateral Inclination (~9°). Combining this with ICC colour coding makes the distinction between "small bias + high agreement" (e.g. M1 Shoulder Flex/Ext) and "large bias + high agreement" (e.g. M2 Shoulder Flex/Ext) immediately legible.
+
+---
+
+### Figure 3 — Bland-Altman: Shoulder Flex/Ext ROM, Standing (M1 and M2 vs Complete Model, reference)
 
 ![Figure 2](fig2_ba_shoulder_flexext_rom_standing.png)
 
@@ -29,9 +39,9 @@
 
 ---
 
-### Figure 3 — ICC(C,1) for ROM: Sitting, M1 vs M2
+### Figure 4 — ICC(C,1) for ROM: Sitting, M1 vs M2
 
-![Figure 3](fig3_icc_rom_sitting_M1vsM2.png)
+![Figure 4](fig3_icc_rom_sitting_M1vsM2.png)
 
 **Caption.** ICC(C,1) for ROM between M1 and M2 in the sitting condition. Blue bars: Left side. Green bars: Right side. Error bars show 95% CI. Bilateral movements appear only for the Left side. Threshold lines follow Koo & Li (2016).
 
@@ -39,19 +49,19 @@
 
 ---
 
-### Figure 4 — Mean ROM Difference (M2 − M1): Sitting, all movements
+### Figure 5 — Mean ROM Difference (M2 - M1): Sitting, all movements
 
-![Figure 4](fig4_dotplot_rom_sitting_M2minusM1.png)
+![Figure 5](fig4_dotplot_rom_sitting_M2minusM1.png)
 
-**Caption.** Mean ROM difference M2 − M1 (°) for each movement-side combination in the sitting condition. Error bars: ± 1 SD. Annotations show the mean difference and ICC interpretation, colour-coded by Koo & Li category. The vertical dashed line at zero indicates perfect agreement.
+**Caption.** Mean ROM difference M2 - M1 (°) for each movement-side combination in the sitting condition. Error bars: ± 1 SD. Annotations show the mean difference and ICC interpretation, colour-coded by Koo & Li category. The vertical dashed line at zero indicates perfect agreement.
 
-**Why this figure.** Complements Figure 3 by adding the magnitude of disagreement. A movement can have excellent ICC (high reproducibility) but large mean difference (systematic offset) — this figure separates the two.
+**Why this figure.** Complements Figure 4 by adding the magnitude of disagreement. A movement can have excellent ICC (high reproducibility) but large mean difference (systematic offset) — this figure separates the two.
 
 ---
 
-### Figure 5 — ROM cancellation effect: Peak RMSD vs ROM RMSD by anatomic distance condition (Comparison A)
+### Figure 6 — ROM cancellation effect: Peak RMSD vs ROM RMSD by anatomic distance condition (Comparison A)
 
-![Figure 5](fig5_cancellation_effect_standing_A.png)
+![Figure 6](fig5_cancellation_effect_standing_A.png)
 
 **Caption.** Comparison A: RMSD between Perfect distances and each alternative anthropometric distance condition (IJ\_C7, PX\_C7, IJ\_PX\_C7) for Peak angle (solid bars) and ROM (hatched bars), for M1 (top) and M2 (bottom). Each group of bars corresponds to one movement-side combination. Where ROM RMSD bars are not visible, RMSD = 0.000°.
 
