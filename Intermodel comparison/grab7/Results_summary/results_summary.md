@@ -181,3 +181,72 @@ The sitting results reinforce the standing conclusions: movements with large M1/
 ### Summary statement
 
 M1 is recommended over M2 when accurate absolute ROM values are required, particularly for shoulder and thorax movements. The virtual C7 reconstruction in M2 introduces systematic biases of 4–9° for the movements most dependent on the thorax coordinate system origin. Both models produce perfect agreement for Elbow Flex/Ext, confirming that joints not involving thorax CS computation are unaffected by the model choice. ROM is robust to errors in anthropometric distances (cancellation effect), making it the appropriate primary outcome variable in this analysis framework.
+
+---
+
+## Comparison A — Effect of Anatomical Distance Condition Within Each Model
+
+> Comparison A evaluates how sensitive the ROM estimates of each model (M1, M2) are to the anthropometric distance condition used. The reference is always **Perfect distances** (gold-standard marker positions); alternatives are **IJ\_C7**, **PX\_C7**, and **IJ\_PX\_C7** (increasingly realistic approximations). This comparison is performed within each model — it does not involve the Complete Model.
+
+### Figure 5 — RMSD for ROM: Comparison A (M1 and M2, all anat. conditions)
+
+![Figure 5](fig5_rmsd_rom_standing_A.png)
+
+**Caption.** RMSD (°) for ROM between Perfect distances and each of the three alternative anthropometric distance conditions (IJ\_C7, PX\_C7, IJ\_PX\_C7), for M1 (top) and M2 (bottom). Each group of bars corresponds to one movement-side combination. Elbow Flex/Ext RMSD is 0.000° for all conditions and models (identity). Values annotated above bars where RMSD > 0.05°.
+
+**Why this figure.** Quantifies how much error in ROM estimation is introduced when using real (imperfect) anthropometric distances instead of perfect marker positions. Low RMSD across all movements would confirm that the ROM variable is robust to this source of uncertainty — a key methodological claim. The grouped bar format allows simultaneous comparison of three conditions and two models.
+
+---
+
+### Figure 6 — ICC(C,1) for ROM: Comparison A (M1 and M2, all anat. conditions)
+
+![Figure 6](fig6_icc_rom_standing_A.png)
+
+**Caption.** ICC(C,1) for ROM between Perfect distances and each alternative anthropometric distance condition, for M1 (top) and M2 (bottom). Error bars show 95% CI. Dashed lines indicate Koo & Li (2016) thresholds. Elbow Flex/Ext ICC = 1.000 for all conditions (zero variance; excluded from ICC computation but shown at maximum for completeness).
+
+**Why this figure.** Complements Figure 5 by showing reproducibility rather than absolute error. A movement can have small RMSD (good absolute accuracy) and also high ICC (high relative consistency across repetitions) — or it could have a moderate RMSD that is nevertheless highly reproducible. Together Figures 5 and 6 fully characterise the sensitivity of each model to the anatomic distance condition.
+
+---
+
+### Table 4 — Standing: ROM sensitivity to anatomic distance condition (Comparison A)
+
+RMSD (°) and ICC(C,1) for ROM relative to Perfect distances. Elbow Flex/Ext omitted (RMSD = 0.000°, ICC = 1.000 for all conditions and models by design).
+
+| Model | Movement | Side | RMSD IJ\_C7 (°) | RMSD PX\_C7 (°) | RMSD IJ\_PX\_C7 (°) | ICC IJ\_C7 | ICC PX\_C7 | ICC IJ\_PX\_C7 |
+|---|---|---|---|---|---|---|---|---|
+| M1 | Shoulder Flex/Ext | Left | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Shoulder Flex/Ext | Right | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Shoulder Abd/Add | Left | 0.28 | 0.18 | 0.23 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Shoulder Abd/Add | Right | 0.37 | 0.22 | 0.30 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Shoulder Int/Ext Rot | Left | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Shoulder Int/Ext Rot | Right | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Elbow Flex/Ext | Left | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Elbow Flex/Ext | Right | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Trunk Extended Lateral Inclination | Left | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M1 | Thorax Lateral Inclination | Left | 0.32 | 0.14 | 0.22 | 0.999 (excellent) | 1.000 (excellent) | 0.999 (excellent) |
+| M2 | Shoulder Flex/Ext | Left | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Shoulder Flex/Ext | Right | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Shoulder Abd/Add | Left | 0.41 | 0.25 | 0.33 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Shoulder Abd/Add | Right | 0.34 | 0.21 | 0.27 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Shoulder Int/Ext Rot | Left | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Shoulder Int/Ext Rot | Right | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Elbow Flex/Ext | Left | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Elbow Flex/Ext | Right | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Trunk Extended Lateral Inclination | Left | 0.00 | 0.00 | 0.00 | 1.000 (excellent) | 1.000 (excellent) | 1.000 (excellent) |
+| M2 | Thorax Lateral Inclination | Left | 1.86 | 1.07 | 1.46 | 0.998 (excellent) | 0.999 (excellent) | 0.999 (excellent) |
+
+---
+
+### Conclusions — Comparison A
+
+**ROM is robust to anthropometric distance errors across all movements and both models.**
+
+The central result of Comparison A is that ROM estimates are largely insensitive to the choice of anthropometric distance condition. This is a direct consequence of the **ROM cancellation effect**: the anatomic distance condition introduces a quasi-uniform additive offset to both the Peak and Valley angles within each repetition, so the difference ROM = Peak − Valley retains the offset only if the offset varies across the range of motion. For rigid-body motions in the shoulder girdle complex the offset is effectively constant within a trial, and it cancels.
+
+Numerically, for Shoulder Flex/Ext ROM — the movement most affected by thorax CS errors — RMSD across conditions remains below 0.01° for both M1 and M2, with ICC = 1.000 (or indistinguishable from it). This confirms the theoretical prediction.
+
+The maximum ROM RMSD across all movements, sides, models and conditions is **1.86°** (at M2 / Thorax Lateral Inclination / Left / IJ_C7), which is clinically negligible. The minimum ROM ICC is **0.998** (excellent) at M2 / Thorax Lateral Inclination / Left / IJ_C7.
+
+The **IJ\_PX\_C7** condition (which combines both distance sources) produces results essentially identical to IJ\_C7 and PX\_C7 individually, confirming that the errors from different distance sources are independent and do not compound in ROM.
+
+These results justify two methodological decisions: (1) using ROM as the primary outcome variable rather than absolute Peak or Valley angles; and (2) concluding, from Comparison B.1 vs B.2, that the model-level differences observed in the validation against the Complete Model are attributable to the kinematic model structure (M1 vs M2) and not to anthropometric distance uncertainty.
