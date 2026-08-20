@@ -79,13 +79,13 @@
 
 ---
 
-### Figure 8 - Temporal angle waveform: Shoulder Flex/Ext, mean cycle across repetitions
+### Figure 8 - Temporal angle waveform: Shoulder Flex/Ext, 3 representative cycles
 
 ![Figure 8](fig8_temporal_shoulder_flexext.png)
 
-**Caption.** Mean ± 1 SD humerothoracic angle across all repetitions (n=7), normalised to a common 0-100% cycle, for Shoulder Flexion/Extension in standing (IJ+PX+C7 distances). Grey: Complete Model (reference). Blue: M1. Red: M2. Shaded bands indicate inter-repetition variability. Left and Right panels correspond to the respective limbs. 0% = neutral starting position; 100% = return to neutral after full flexion arc.
+**Caption.** Raw humerothoracic angle signal during 3 representative cycles of Shoulder Flexion/Extension in standing (IJ+PX+C7 distances), selected from the middle of the continuous recording. Grey: Complete Model (reference). Blue: M1. Red: M2. Vertical dotted lines mark peak flexion instants detected on the reference signal. Left and Right panels correspond to the respective limbs.
 
-**Why this figure.** Provides the qualitative reading that statistical tables cannot convey. Three observations are visible directly: (1) all three models follow an almost identical trajectory throughout the mid-range of movement (~20-70% of the cycle), confirming that model differences are not pervasive; (2) the separation of M2 from the Complete Model is concentrated at the angle extremes (peak flexion and starting neutral), where the virtual C7 reconstruction error has its greatest angular effect; (3) M1 remains visually indistinguishable from the Complete Model across the entire cycle, consistent with its near-zero bias and excellent ICC. This pattern supports using ROM as the primary validation metric: the systematic offset of M2 at both extremes is what produces the mean bias of ~7°, while the high ICC reflects that the offset is consistent across repetitions.
+**Why this figure.** Provides the qualitative reading that statistical tables cannot convey. Three observations are immediately visible: (1) all three models trace a nearly identical curve throughout the mid-range of each cycle, confirming that model differences are not pervasive across the full movement; (2) M2 (red) separates from the Complete Model at both extremes — valley (maximum extension, ~-50°) and peak (maximum flexion, ~150°) — and the separation is consistent rep after rep; (3) M1 (blue) remains visually indistinguishable from the Complete Model at all phases of the cycle. This pattern explains why the ROM bias of M2 is systematic (same offset at peak and valley → consistent ROM error) while the ICC remains excellent (the offset repeats identically each repetition).
 
 ---
 
