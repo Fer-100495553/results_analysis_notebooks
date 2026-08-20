@@ -69,6 +69,16 @@
 
 ---
 
+### Figure 7 - Physical vs Virtual Marker Distance: Shoulder Flex/Ext (IJ+PX+C7 distances)
+
+![Figure 7](fig7_marker_distance_shoulder_flexext.png)
+
+**Caption.** Frame-by-frame 3D Euclidean distance (mm) between each physical marker and its virtual reconstruction during Shoulder Flexion/Extension (IJ+PX+C7 distance scenario). Left column: T8 virtual marker distance for M1 (blue) and M2 (red). Right column: C7 virtual marker distance for M2 only (M1 uses the real physical C7 marker). Dotted horizontal lines indicate the mean distance. Top row: Left side. Bottom row: Right side. Recording duration ~50 s (~7 repetitions).
+
+**Why this figure.** Provides the mechanistic explanation for the angular biases observed in Comparison B.1. Two findings stand out. (1) T8 reconstruction error is similar for M1 and M2 (~23 mm and ~26 mm respectively), which is consistent with both models performing comparably on movements dominated by the thorax coordinate system. (2) The C7 virtual marker in M2 has a mean error of ~11 mm with high within-recording variability (SD 5-7 mm, range 0-24 mm). The distance oscillates rhythmically in phase with the movement cycle: each repetition shows approximately the same error at the peak angle and at the valley angle, so the rep-to-rep ROM error is nearly constant (SD = 0.52°, ICC = 0.990) even though the within-rep C7 position fluctuates. The 11 mm mean offset translates into the systematic ~7° ROM bias of M2 reported in Comparison B.1.
+
+---
+
 ## Tables
 
 ### Table 1 — Standing: ROM statistical metrics (Comparison B.1, Perfect distances)
