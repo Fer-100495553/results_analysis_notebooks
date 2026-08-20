@@ -69,7 +69,17 @@
 
 ---
 
-### Figure 7 - Physical vs Virtual Marker Distance: Shoulder Flex/Ext (IJ+PX+C7 distances)
+### Figure 7 - ROM Bias by Anthropometric Distance Condition: all movements (Comparison A)
+
+![Figure 7b](fig10_dotplot_rom_standing_A.png)
+
+**Caption.** Mean ROM bias (°) for each alternative anthropometric distance condition relative to Perfect distances, across all movement-side combinations, for M1 (circles) and M2 (squares). Colours indicate the condition: purple = IJ\_C7, orange = PX\_C7, green = IJ\_PX\_C7. Error bars: ± 1 SD. The vertical dashed line at zero indicates perfect cancellation.
+
+**Why this figure.** Complements Figure 6 by showing the ROM cancellation effect across all movements simultaneously, rather than only Shoulder Flex/Ext. Three patterns emerge: (1) for Shoulder Flex/Ext, Shoulder Int/Ext Rot, Elbow F/E, and Trunk Lat. Incl., ROM bias is exactly 0.000° across all conditions and models — cancellation is perfect; (2) Shoulder Abd/Add shows a small residual bias (~0.3°) for some conditions, indicating partial but not complete cancellation; (3) Thorax Lat. Incl. under M2 shows the largest residual ROM bias (~1.5–1.7° for IJ\_PX\_C7), meaning the T8 reconstruction error for M2 is not constant across the movement cycle for this specific motion. This reveals that the cancellation is movement-dependent: robust where the virtual marker error is approximately constant between peak and valley, and incomplete where it is not.
+
+---
+
+### Figure 8 - Physical vs Virtual Marker Distance: Shoulder Flex/Ext (IJ+PX+C7 distances)
 
 ![Figure 7](fig7_marker_distance_shoulder_flexext.png)
 
@@ -79,7 +89,7 @@
 
 ---
 
-### Figure 8 - Temporal angle waveform: Shoulder Flex/Ext, 3 representative cycles
+### Figure 9 - Temporal angle waveform: Shoulder Flex/Ext, 3 representative cycles
 
 ![Figure 8](fig8_temporal_shoulder_flexext.png)
 
@@ -89,7 +99,7 @@
 
 ---
 
-### Figure 9 - Raincloud plot: Shoulder Flex/Ext ROM distribution per model (Standing, Perfect distances)
+### Figure 10 - Raincloud plot: Shoulder Flex/Ext ROM distribution per model (Standing, Perfect distances)
 
 ![Figure 9](fig9_raincloud_shoulder_flexext_rom.png)
 
