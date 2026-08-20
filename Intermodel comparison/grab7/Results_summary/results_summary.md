@@ -79,6 +79,16 @@
 
 ---
 
+### Figure 8 - Temporal angle waveform: Shoulder Flex/Ext, mean cycle across repetitions
+
+![Figure 8](fig8_temporal_shoulder_flexext.png)
+
+**Caption.** Mean ± 1 SD humerothoracic angle across all repetitions (n=7), normalised to a common 0-100% cycle, for Shoulder Flexion/Extension in standing (IJ+PX+C7 distances). Grey: Complete Model (reference). Blue: M1. Red: M2. Shaded bands indicate inter-repetition variability. Left and Right panels correspond to the respective limbs. 0% = neutral starting position; 100% = return to neutral after full flexion arc.
+
+**Why this figure.** Provides the qualitative reading that statistical tables cannot convey. Three observations are visible directly: (1) all three models follow an almost identical trajectory throughout the mid-range of movement (~20-70% of the cycle), confirming that model differences are not pervasive; (2) the separation of M2 from the Complete Model is concentrated at the angle extremes (peak flexion and starting neutral), where the virtual C7 reconstruction error has its greatest angular effect; (3) M1 remains visually indistinguishable from the Complete Model across the entire cycle, consistent with its near-zero bias and excellent ICC. This pattern supports using ROM as the primary validation metric: the systematic offset of M2 at both extremes is what produces the mean bias of ~7°, while the high ICC reflects that the offset is consistent across repetitions.
+
+---
+
 ## Tables
 
 ### Table 1 — Standing: ROM statistical metrics (Comparison B.1, Perfect distances)
