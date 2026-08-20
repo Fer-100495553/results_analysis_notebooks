@@ -89,6 +89,16 @@
 
 ---
 
+### Figure 9 - Raincloud plot: Shoulder Flex/Ext ROM distribution per model (Standing, Perfect distances)
+
+![Figure 9](fig9_raincloud_shoulder_flexext_rom.png)
+
+**Caption.** Distribution of Shoulder Flexion/Extension ROM (°) across repetitions for each model in the standing condition (Perfect distances). Each column shows the individual repetition values (dots), box plot (median, IQR, whiskers), and half-violin density estimate. Grey: Complete Model. Blue: M1. Red: M2. Annotated values indicate the mean ROM per model. Left and Right panels correspond to the respective limbs.
+
+**Why this figure.** Illustrates the nature of the inter-model difference at the raw data level, complementing Figure 3 (Bland-Altman) and Figure 2 (dot plot). Three observations stand out: (1) M1 and the Complete Model are virtually indistinguishable in both location and spread (~200°), confirming near-zero bias and excellent ICC; (2) M2 is rigidly shifted upward by ~7° with a similar spread to the other two models — a pure systematic offset with no increase in variability; (3) the within-model spread is narrow and consistent across models, explaining why ICC remains excellent for M2 despite the mean bias.
+
+---
+
 ## Tables
 
 ### Table 1 — Standing: ROM statistical metrics (Comparison B.1, Perfect distances)
