@@ -69,7 +69,17 @@
 
 ---
 
-### Figure 7 — ROM RMSD Heatmap: all movements × anthropometric distance condition (Comparison A)
+### Figure 7 — Dumbbell plot: Peak and Valley shift per distance condition, Shoulder Flex/Ext (Comparison A)
+
+![Figure 7](fig11_dumbbell_cancellation_shoulderflex.png)
+
+**Caption.** Mean Peak (filled circle) and mean Valley (open circle) angle (°) for Shoulder Flexion/Extension (Left side) under each anthropometric distance condition (Perfect, IJ\_C7, PX\_C7, IJ+PX+C7), for M1 (left panel) and M2 (right panel). Error bars: ± 1 SD across repetitions. The vertical line connecting each pair is the ROM. Numeric labels show the mean Peak and Valley angle for each condition; the ROM value is annotated at mid-dumbbell.
+
+**Why this figure.** Provides the mechanistic explanation of the cancellation effect at the level of raw angle values. In M1, Peak shifts between 151.0° and 154.3° across conditions (+3.3°) while Valley shifts equally between −45.7° and −49.0° (−3.3°) — the two endpoints co-vary by the same amount in the same direction, so ROM = Peak − Valley remains exactly 200.0° across all four conditions. In M2, the same logic holds: Peak varies ~3.3° and Valley varies ~3.3° in parallel, leaving ROM fixed at 207.2°. This figure answers the question "how can Peak RMSD be 3.3° while ROM RMSD is 0.000°?" directly in angle-space, without requiring any statistical abstraction.
+
+---
+
+### Figure 8 — ROM RMSD Heatmap: all movements × anthropometric distance condition (Comparison A)
 
 ![Figure 7](fig10_heatmap_compA_rmsd.png)
 
@@ -79,7 +89,7 @@
 
 ---
 
-### Figure 8 - Physical vs Virtual Marker Distance: Shoulder Flex/Ext (IJ+PX+C7 distances)
+### Figure 9 - Physical vs Virtual Marker Distance: Shoulder Flex/Ext (IJ+PX+C7 distances)
 
 ![Figure 7](fig7_marker_distance_shoulder_flexext.png)
 
@@ -89,7 +99,7 @@
 
 ---
 
-### Figure 9 - Temporal angle waveform: Shoulder Flex/Ext, 3 representative cycles
+### Figure 10 - Temporal angle waveform: Shoulder Flex/Ext, 3 representative cycles
 
 ![Figure 8](fig8_temporal_shoulder_flexext.png)
 
@@ -99,7 +109,7 @@
 
 ---
 
-### Figure 10 - Raincloud plot: Shoulder Flex/Ext ROM distribution per model (Standing, Perfect distances)
+### Figure 11 - Raincloud plot: Shoulder Flex/Ext ROM distribution per model (Standing, Perfect distances)
 
 ![Figure 9](fig9_raincloud_shoulder_flexext_rom.png)
 
