@@ -69,13 +69,13 @@
 
 ---
 
-### Figure 7 - ROM Bias by Anthropometric Distance Condition: all movements (Comparison A)
+### Figure 7 — ROM RMSD Heatmap: all movements × anthropometric distance condition (Comparison A)
 
-![Figure 7b](fig10_dotplot_rom_standing_A.png)
+![Figure 7](fig10_heatmap_compA_rmsd.png)
 
-**Caption.** Mean ROM bias (°) for each alternative anthropometric distance condition relative to Perfect distances, across all movement-side combinations, for M1 (circles) and M2 (squares). Colours indicate the condition: purple = IJ\_C7, orange = PX\_C7, green = IJ\_PX\_C7. Error bars: ± 1 SD. The vertical dashed line at zero indicates perfect cancellation.
+**Caption.** ROM RMSD (°) between each alternative anthropometric distance condition and Perfect distances, for all movement-side combinations and both models (M1: real C7; M2: virtual C7). Colour encodes RMSD magnitude (white/pale-yellow = 0°; dark red = highest value). Numeric values are annotated in each cell. Horizontal dashed lines separate movement groups; the vertical black line separates M1 and M2 columns.
 
-**Why this figure.** Complements Figure 6 by showing the ROM cancellation effect across all movements simultaneously, rather than only Shoulder Flex/Ext. Three patterns emerge: (1) for Shoulder Flex/Ext, Shoulder Int/Ext Rot, Elbow F/E, and Trunk Lat. Incl., ROM bias is exactly 0.000° across all conditions and models — cancellation is perfect; (2) Shoulder Abd/Add shows a small residual bias (~0.3°) for some conditions, indicating partial but not complete cancellation; (3) Thorax Lat. Incl. under M2 shows the largest residual ROM bias (~1.5–1.7° for IJ\_PX\_C7), meaning the T8 reconstruction error for M2 is not constant across the movement cycle for this specific motion. This reveals that the cancellation is movement-dependent: robust where the virtual marker error is approximately constant between peak and valley, and incomplete where it is not.
+**Why this figure.** Provides a compact, full-spectrum summary of the ROM cancellation effect across all movements and conditions simultaneously. The dominant visual impression — nearly all cells pale yellow at 0.000° — communicates the robustness of the cancellation at a glance. Two exceptions stand out chromatically: (1) Shoulder Abd/Add shows small but non-zero RMSD (~0.2–0.4°) for both models, indicating partial cancellation; (2) Thorax Lat. Incl. under M2 is the single dark-red region (up to 1.855° for IJ\_C7), revealing that the virtual C7 reconstruction error is not constant across the movement cycle for this specific motion and therefore does not cancel in ROM. This figure consolidates the message of Figure 6 (Shoulder Flex/Ext cancellation) to the full movement set.
 
 ---
 
